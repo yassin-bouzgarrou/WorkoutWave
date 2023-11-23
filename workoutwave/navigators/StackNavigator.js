@@ -15,6 +15,7 @@ import ProfileScreen from "../Screens/ProfileScreen"
 import SelectCategoryScreen from '../Screens/SelectCategoryScreen';
 import WeightInfoScreen from "../Screens/WeightInfoScreen.js"
 import WorkoutExerc from "../Screens/WorkoutExerc.js"
+import AgeScreen from '../Screens/AgeScreen.js';
 import GoalScreen from "../Screens/GoalScreen.js"
 import ForgetPasswordScreen from "../Screens/ForgetPasswordScreen.js"
 import GoalWeightScreen from "../Screens/GoalWeightScreen.js"
@@ -108,6 +109,7 @@ function StackNavigator() {
     <Stack.Screen name="WorkoutExerc" component={WorkoutExerc} />
     <Stack.Screen name="GoalWeightScreen" component={GoalWeightScreen} />
     <Stack.Screen name="WeightInfoScreen" component={WeightInfoScreen} />
+    <Stack.Screen  name="AgeScreen" component={AgeScreen}    />          
 
   </Stack.Navigator>
   </NavigationContainer>
